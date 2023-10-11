@@ -1,0 +1,47 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4076040Test",
+    "originalLanguage": "en"
+  },
+  "externalName": "YYS4076040Test",
+  "type": "text",
+  "typeDetails": {
+    "length": 20
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Test Field",
+      "fieldTooltip": "Test Field",
+      "fieldHeading": "Test Field",
+      "fieldMediumLabel": "Test Field",
+      "fieldShortLabel": "Test Field"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ]
+}

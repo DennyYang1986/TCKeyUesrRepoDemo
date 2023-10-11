@@ -1,0 +1,33 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4076040PONumber",
+    "originalLanguage": "en"
+  },
+  "externalName": "YYS4076040PONumber",
+  "type": "text",
+  "typeDetails": {
+    "length": 20
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "PO Number",
+      "fieldTooltip": "PO Number",
+      "fieldHeading": "PO Number"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    }
+  ]
+}
